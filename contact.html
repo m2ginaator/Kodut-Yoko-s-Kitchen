@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoko's Kitchen</title>
+    <style>
+        header, section, footer, aside, nav, article, figure, figcaption {
+            display: block;
+        }
+        body {
+            color: #666666;
+            background-color: #f9f8f6;
+            background-image: url(images/dark-wood.jpg);
+            background-position: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.4em;
+            margin: 0px;
+        }
+        .wrapper {
+            width: 940px;
+            margin: 20px auto 20px auto;
+            border: 2px solid #000000;
+            background-color: #ffffff;
+        }
+        header {
+            height: 160px;
+            background-image: url("images/header.jpg");
+        }
+        h1 {
+            text-indent: -9999px;
+            width: 940px;
+            height: 130px;
+            margin: 0px;
+        }
+        nav, footer {
+            clear: both;
+            color: #ffffff;
+            background-color: #aeaca8;
+            height: 30px;
+        }
+        nav ul {
+            margin: 0px;
+            padding: 5px 0px 5px 30px;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+
+        nav li a {
+            color: #ffffff;
+        }
+
+        nav li a:hover, nav li a.current {
+            color: #ffffff;
+        }
+        a {
+            color: #de6581;
+            text-decoration: none;
+        }
+        footer {
+            font-size: 80%;
+            padding: 7px 0px 0px 20px;
+        }
+        #contact {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+
+#contact h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#contact p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#contact address {
+  font-style: normal;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#contact a {
+  font-size: 16px;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Yoko's Kitchen</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html" class="current">home</a></li>
+                    <li><a href="classes.html">classes</a></li>
+                    <li><a href="catering.html">catering</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>We are located at:</p>
+            <address>
+              123 Main St,<br>
+              London, UK<br>
+              SW1A 1AA
+            </address>
+            <p>For inquiries, please email us at:</p>
+            <a href="mailto:info@yourcompany.com">info@yourcompany.com</a>
+          </section>
+          
+        <footer>
+            &COPY; 2023 Yoko's Kitchen
+        </footer>
+    </div>
+</body>
+</html>
